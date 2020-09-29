@@ -1,0 +1,144 @@
+html {
+    font-size: 16px;
+    color: white;
+  }
+  
+  body {
+    background-color: black;
+  }
+  
+  .headnav {
+    position: fixed;
+    background-color: hsla(327, 81%, 44%, 1);
+    z-index: 10;
+    padding: 0 2rem 0 2rem;
+    width: 10%;
+    right: 0.25rem;
+  }
+  
+  .headnav ul {
+    list-style-type: none;
+    margin: 0.5rem, 0;
+    padding-left: 0;
+    text-align: right;
+  }
+  
+  .headnav li {
+    padding: 0.125rem;
+  }
+  
+  header {
+    background-image: url('https://images.unsplash.com/photo-1570872626485-d8ffea69f463?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+    margin: 0;
+  }
+  
+  .title {
+    background-color: hsla(327, 81%, 44%, 0.5);
+    color: white;
+    position: absolute;
+    width: 100%;
+    margin-top: 200px;
+    text-align: center;
+    font-family: 'Russo One', sans-serif;
+  }
+  
+  article {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+  }
+  
+  article h3 {
+    color: hsl(181, 100%, 43%);
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2rem;
+  }
+  
+  .gallery1 {
+    text-align: center;
+  }
+  
+  .gallery1 img {
+    width: 30%;
+    height: auto;
+    max-height: 200px;
+    display: inline-block;
+    margin: 1rem;
+  }
+  
+  .quoteblock h2 {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  
+  .quoteblock p {
+    text-align: right;
+    margin-right: 10%;
+  }
+  
+  
+  .gallery2 {
+    width: 50%;
+    height: auto;
+    overflow: hidden;
+    margin: 2rem auto;
+  }
+  
+  .gallery2 video {
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  
+  footer {
+    text-align: center;
+  }
+  
+  footer p {
+    display: inline-block;
+    margin: 0.5rem;
+    font-size: 0.75rem;
+  }
+  
+  footer img {
+    height: 2rem;
+    width: 2rem;
+  }
+  
+  
+  
+  
+  
+  /*mobile specs*/
+  
+  @media only screen and (max-width: 480px) {
+    .title {
+      margin-top: 0;
+      padding: 0.75rem 2rem;
+    }
+    
+    .title h1 {
+      text-align: left;
+      max-width: 50%;
+      margin: 0;
+    }
+  
+    header {
+      max-height: 400px;
+    }
+    .gallery1 img {
+      width: 100%;
+      margin: 1rem 0;
+      height: auto;
+      display: block;
+    }
+    article {
+      width: 60%;
+    }
+  }
+  

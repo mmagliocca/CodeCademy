@@ -1,0 +1,194 @@
+html {
+}
+
+nav {
+  background-color: white;
+  margin-left: 0;
+}
+
+nav h1 {
+  text-align: center;
+  padding-top: 0.75rem;
+}
+
+nav img {
+  position: absolute;
+  height: 3rem;
+  width: 3rem;
+  margin-top: 0;
+}
+
+.navbar {
+  width: 100%;
+  justify-content: space-between;
+  display: inline-flex;
+  align-content: center;
+  margin-bottom: 1rem;
+  align-items: baseline;
+  flex-shrink: 1;
+  color: black;
+}
+
+.links {
+  width: 80%;
+  display: inline-flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.links h3 {
+  margin-right: 2rem;
+  text-align: center;
+}
+
+.button {
+  border: 2px solid black;
+  display: flex;
+  align-items: baseline;
+  padding: 1rem;
+  flex-wrap: nowrap;
+  min-width: 5rem;
+  max-height: 1.5rem;
+}
+
+.button:hover {
+  background-color: black;
+  color: white;
+}
+
+/*Mission*/
+
+.mission {
+  display: flex;
+  background-image: url('https://s24511.pcdn.co/wp-content/uploads/2020/03/web1_thumbnail_20200322_092301-1.jpg');
+  height: 300px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  align-items: center;
+}
+
+.statement {
+  background-color: white;
+  text-align: center;
+  align-items: center;
+}
+
+/*Portfolio*/
+
+.portfolio {
+  text-align: center;
+  padding-top: 2rem;
+  background-color: hsla(0, 0%, 80%, 1);
+}
+
+.clients {
+  margin-top: 2rem;
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-around;
+  justify-content: space-around;
+}
+
+.photo {
+  position: relative;
+  width: 200px;
+  max-width: 200px;
+  min-width: 100px;
+  flex-shrink: 1;
+  margin: 1rem;
+}
+
+.photo img {
+  display: block;
+  width: 200px;
+  height: auto;
+}
+
+#client1 {
+
+}
+
+.photo p {
+  position: absolute; 
+  bottom: 0; 
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5); /* Black see-through */
+  color: #f1f1f1; 
+  width: 80%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.photo:hover p {
+  opacity: 1;
+}
+
+#client2 {
+
+}
+
+#client3 {
+
+}
+
+#client4 {
+
+}
+
+#client5 {
+  background-color: white;
+}
+
+#client6 {
+ 
+}
+
+/*Our Team*/
+.theteam {
+  background-color: white;
+  padding-top: 3rem;
+}
+
+.team {
+  display: flex;
+  padding: 2rem;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+
+.staff {
+  background-color: white;
+  padding: 1rem;
+  margin: 2rem;
+  border: 5px solid hsla(0, 0%, 80%, 1);
+  border-radius: 10px;
+}
+
+
+.staff img {
+  height: 250px;
+  width: auto;
+  border: 2px solid black;
+  border-radius: 100%;
+}
+
+.banner {
+    background-image: url('https://images.squarespace-cdn.com/content/v1/525b1c1ae4b018d72383bdb0/1388783760922-JK5E3E816EOOM2NWCERY/ke17ZwdGBToddI8pDm48kFWxnDtCdRm2WA9rXcwtIYR7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UcTSrQkGwCGRqSxozz07hWZrYGYYH8sg4qn8Lpf9k1pYMHPsat2_S1jaQY3SwdyaXg/G345N0138+L.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  color: white;
+}
+
+footer {
+  text-align: center;
+}

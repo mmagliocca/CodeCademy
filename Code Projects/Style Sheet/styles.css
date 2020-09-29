@@ -1,0 +1,115 @@
+*{
+    box-sizing:border-box;
+  }
+  
+  .Section{
+    margin: 10px 30px;
+    border: 2px solid gray;
+    padding: 20px;
+  }
+  
+  /*Colorblocks*/
+  
+  .colorblock {
+    display: inline-block;
+    padding: 10px 50px;
+    margin: 30px;
+    text-align: center;
+    min-width: 200px;
+  }
+  
+  #maroon {
+    background-color: maroon;
+    color: white;
+  }
+  
+  #gold {
+    background-color: gold;
+  }
+  
+  #charcoal {
+    background-color: slategray;
+  }
+  
+  /*Fonts*/
+  
+  .fonts {
+    display: inline-block;
+    margin: 0px 30px;
+  }
+  
+  #oswald {
+    font-family: 'Oswald', sans-serif;
+    font-size: 120%
+  }
+  
+  #playfair {
+    font-family: 'Playfair Display', serif;
+    font-size: 130%;
+  }
+  
+  #cormorant {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 140%;
+  }
+  
+  .Name {
+    text-decoration: underline;
+  }
+  
+  .regular {
+    font-style: regular;
+  }
+  
+  .italic {
+    font-style: italic;
+  }
+  
+  .bold {
+    font-weight: bold;
+  }
+  
+  /*Text Styles*/
+  
+  .textstyles {
+    display:inline-block;
+    vertical-align: top;
+    margin: 0px 70px 0px 30px;
+  }
+  
+  .textstyles h1 {
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+  }
+  
+  .textstyles h2 {
+    font-family: 'Playfair Display', serif;
+    font-weight: 500;
+    font-size: 20px;
+  }
+  
+  .textstyles h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: 17px;
+  }
+  
+  #exampletext h1 {
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    /*border: 1px solid gray;*/
+  }
+  
+  #exampletext h2 {
+    line-height: 1.2;
+    /*border: 1px solid gray;*/
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  #exampletext h3 {
+    /*border: 1px solid gray;*/
+    margin-top: 20px;
+  }
+  
